@@ -16,8 +16,7 @@ function getData(str){
 </script>
 </head>
 <body>
-	<input type="text" id="textfield" onkeyup="getData(this.value)">
-	<button onclick="getData(document.getElementById('textfield').value);">Click me!</button>
+	<button onclick="getData('Hello!');">Click me!</button>
 	<div id="out"></div>
 </body>
 </html>
